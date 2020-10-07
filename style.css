@@ -10,7 +10,6 @@ body {
     padding: 20mm;
 }
 
-
 .section-left {
     display: inline-block;
     position: relative;
@@ -27,31 +26,12 @@ body {
     height: 100%;
 }
 
-.nav-bar-small-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-content: flex-end;
-    position: relative;
-}
-
 .nav-bar-small-item {
     list-style-type: none;
     padding: 5px;
     border: 1px solid #e5e5e5;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
     float: right;
-}
-
-.nav-bar-small {
-    width: 60%;
-    position: absolute;
-    top: 40%;
-}
-
-.nav-bar-small a {
-    text-decoration: none;
-    color: #000;
 }
 
 .tooltip {
@@ -90,35 +70,6 @@ body {
     visibility: visible;
 }
 
-.header-full-width {
-    width: 100%;
-    background-color: #ae0b05;
-    height: 4em;
-}
-
-.nav-bar-main {
-    height: 100%;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-
-.nav-bar-main-item {
-    list-style-type: none;
-    width: auto;
-    display: flex;
-    padding: 5px;
-    align-items: center;
-}
-
-.nav-bar-main-item a {
-    text-decoration: none;
-    color: #fff;
-    flex: 1;
-}
-
 /* CSS for the footer */
 
 footer {
@@ -154,36 +105,6 @@ footer {
 
 .footer-link a {
     color: #000;
-}
-
-.footer-menu-link {
-    width: 100%;
-    background-color: rgba(0, 0, 0, .05);
-    padding: 5px 10px;
-    border-radius: 2px;
-    margin-top: 4px;
-    font-size: 0.9em;
-}
-
-.footer-menu-link a {
-    text-decoration: none;
-    color: #000;
-    width: 100%;
-    display: block;
-}
-
-.footer-menu-link:hover {
-    background-color: rgba(0, 0, 0, .07);
-}
-
-.footer-form {
-    width: 100%;
-}
-
-.footer-form-input {
-    height: 30px;
-    width: 100%;
-    padding-left: 10px;
 }
 
 .social-media-container {
@@ -294,31 +215,7 @@ footer {
     list-style-type: none;
 }
 
-/*CSS for Coronavirus div */
-
-.coronavirus-box {
-    background-color: #b1f5ff;
-    color: #252525;
-    padding: 15px;
-    padding-left: 30px;
-    width: 100%;
-}
-
-.corona-list-item a {
-    color: #252525;
-}
-
-.corona-list-item:first-of-type {
-    margin-bottom: 20px;
-}
-
-.corona-list {
-    list-style-type: none;
-    text-decoration: underline;
-}
-
 /* style for Picture Slider */
-
 .galleryContainer {
     border: 1px solid #005C86;
     display: inline-block;
@@ -381,8 +278,6 @@ h2 {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
-    z-index: 3;
 }
 
 /* style for container that holds multiple image-title-text combo
@@ -437,8 +332,8 @@ i {
 
 .top-right-search-box {
     float: right;
-    width: 10mm;
-    height: 10mm;
+    width: 6mm;
+    height: 6mm;
     right: 5%;
     position: absolute;
 }
@@ -455,8 +350,8 @@ i {
 
 .main-content {
     flex: 3;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .box-with-shadow {
@@ -557,52 +452,6 @@ i {
     color: #005C86;
 }
 
-.text-link {
-    color: #005C86;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-.image-and-text-container {
-    background-color: #005C86;
-    position: relative;
-}
-
-.image-left-div {
-    width: 45%;
-    background-image: url(https://helsingborg.se/wp-content/uploads/2020/04/h22-graffiti-1920x1080-1-scaled-960x540.jpg);
-    background-size: cover;
-    position: absolute;
-    left: 0px;
-    height: 100%;
-    background-position: center center;
-}
-
-.text-right-div {
-    width: 55%;
-    right: 0%;
-    margin-left: 45%;
-    padding: 30px;
-}
-
-.text-right-content {
-    width: 90%;
-    color: white;
-    margin: auto;
-    padding: 20px 0px;
-}
-
-.image-header-text {
-    margin-bottom: 20px;
-    color: white;
-    font-weight: 700;
-}
-
-.image-info-text {
-    margin-bottom: 30px;
-}
-
 .multi-imagetext-container-nomargin {
     background-color: white;
     position: relative;
@@ -622,20 +471,8 @@ i {
     width: 49%;
 }
 
-.width-container-xs {
-    width: 85%;
-}
-.size-container {
-    flex-wrap: wrap;
-    width: 40%;
-    min-height: 430px;
-    max-height: 450px;
-}
-.padded-item {
-    padding: 5px;
-}
 .box-blue-whitetext {
-    background-color: #005C86;
+    background-color: #0069b4;
     color: white;
     width: 100%;
     height: auto;
@@ -651,21 +488,8 @@ i {
     color: rgba(255, 255, 255, .6);
 }
 
-.smallertext {
-    font-size: smaller;
-}
-
 ul.box-blue-whitetext {
     list-style-type: none;
-}
-
-.nav-bar-small-index {
-    width: 100%;
-}
-
-.column-container {
-    width: 80%;
-    margin: auto;
 }
 
 .image-box-container {
@@ -681,58 +505,6 @@ ul.box-blue-whitetext {
     text-decoration: none;
 }
 
-.image-box-container img {
-    width: 100%;
-    position: relative;
-    max-height: 200px;
-    min-height: 200px;
-}
-
-.image-box-container a {
-    text-decoration: none;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 45%;
-    width: 44px;
-    height: 44px;
-    margin-top: -18px;
-    padding: 16px;
-    color: #333;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    background: rgba(255, 255, 255, .75);
-}
-
-.next {
-    right: 10px;
-    border-radius: 50%;
-}
-
-.prev {
-    left: 10px;
-    border-radius: 50%;
-}
-
-.prev:hover, .next:hover {
-    background-color: #fff;
-}
-
-.prev i, .next i {
-    position: absolute;
-    top: 15px;
-    left: 17px;
-}
-
-.prev i {
-    left: 14px;
-}
-
-
-.active, .dot:hover {
-    background-color: #cb0050;
+.dot:hover {
+    background-color: #005C86;
 }
